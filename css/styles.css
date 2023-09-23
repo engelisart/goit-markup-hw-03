@@ -380,11 +380,6 @@ img {
   | Filters
   |============================
 */
-
-.filters-btn {
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
 .filters-list {
   display: flex;
   justify-content: center;
@@ -416,13 +411,13 @@ img {
   |============================
 */
 .row-list {
+  border: 1px solid var(--CORNFLOWER);
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 .row-item {
-  border: 1px solid var(--CORNFLOWER);
   width: calc((100% - 48px) / 3);
 }
 .row-link {
