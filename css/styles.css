@@ -52,7 +52,9 @@ img {
 .link {
   text-decoration: none;
 }
-
+.visually-hidden {
+  
+}
 /*reset end*/
 
 /**
@@ -369,9 +371,7 @@ img {
   | Filters
   |============================
 */
-.filters-title {
-  visibility: hidden;
-}
+
 .filters-btn {
   padding-top: 96px;
   padding-bottom: 120px;
