@@ -78,6 +78,7 @@ img {
   |============================
 */
 .header {
+  border-bottom: 1px solid var(--CORNFLOWER);
   background: var(--WHITE);
   height: 72px;
   display: flex;
@@ -89,6 +90,7 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-nav-logo-wed {
   font-family: Raleway, sans-serif;
