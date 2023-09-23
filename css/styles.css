@@ -433,6 +433,7 @@ img {
 .row-titel-paragrah {
   padding: 32px 16px;
   border: 1px solid var(--CORNFLOWER);
+  border-top: none;
 }
 .row-item-titel {
   font-family: Roboto, sans-serif;
