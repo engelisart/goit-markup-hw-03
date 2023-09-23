@@ -415,7 +415,6 @@ img {
   |============================
 */
 .row-list {
-  border: 1px solid var(--CORNFLOWER);
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -423,6 +422,7 @@ img {
 }
 .row-item {
   width: calc((100% - 48px) / 3);
+  border: 1px solid var(--CORNFLOWER);
 }
 .row-link {
   text-decoration: none;
