@@ -53,7 +53,16 @@ img {
   text-decoration: none;
 }
 .visually-hidden {
-  
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 /*reset end*/
 
@@ -225,7 +234,7 @@ img {
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
-  border-radius: 4px; 
+  border-radius: 4px;
   border: none;
   cursor: pointer;
 }
@@ -362,7 +371,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--SLATE);
-  
+
   text-align: center;
 }
 /**Portfolio.html**/
